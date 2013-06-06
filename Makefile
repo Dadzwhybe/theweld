@@ -15,7 +15,7 @@ publish: build
 	find _site -maxdepth 1 -exec mv {} . \;
 	rmdir _site
 	git add -A && git commit -m "Publish" || true
-	git push -f git+ssh://git@push.clever-cloud.com/app_dac7568e-d269-4a05-9bb9-a118a4099fb3.git publish:master
+	git push -f git+ssh://git@push.clever-cloud.com/app_a127c404-0d4d-4841-abfa-d73130d056d1.git publish:master
 	git checkout master
 	git clean -fdx
 	git stash pop || true
