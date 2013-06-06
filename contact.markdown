@@ -7,6 +7,6 @@ like to be contacted.
 
 <div style="width:800px">
 	<a href="/images/crf.jpg" target="_blank">
-		<img alt="dotscale" src="/images/crf.jpg">
+		<img alt="crf" src="/images/crf.jpg">
 	</a>
 </div>
